@@ -563,21 +563,21 @@ export default function ViridiaTechProfile() {
                 role: "CEO & Co-Founder",
                 education: "BSc Computer Science & Statistics, University of Toronto",
                 experience: "5 years in agricultural sales, $1.2M revenue generated at EBG & HSBC Canada",
-                image: "/images/omar-ceo-full.png",
+                image: "/images/omar-ceo.png",
               },
               {
                 name: "Mohamed Elsawy",
                 role: "CDO & Co-Founder",
                 education: "BSc Computer Engineering, American University in Cairo",
                 experience: "5 years in Data Science at IBM, Dell Technologies, Central Bank of Egypt, PwC",
-                image: "/images/mohamed-cdo-full.png",
+                image: "/images/mohamed-cdo.jpeg",
               },
               {
                 name: "Marwan El Toukhy",
                 role: "CTO & Co-Founder",
                 education: "BSc Computer Engineering, AUC & Virginia Tech",
                 experience: "5 years in Silicon Valley hardware design and international sales at Efabless",
-                image: "/images/marwan-cto-full.png",
+                image: "/images/marwan-cto.jpeg",
               },
             ].map((member, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
