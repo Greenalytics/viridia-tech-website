@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   generator: 'Next.js',
   icons: {
     icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
       { url: '/favicon.ico' },
       { url: '/favicon.png', type: 'image/png' },
     ],
