@@ -4,9 +4,15 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Viridia - Satellite Intelligence for Agriculture',
+  description: 'Revolutionizing agriculture with satellite intelligence and AI-powered insights',
+  generator: 'Next.js',
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.png', type: 'image/png' },
+    ],
+  },
 }
 
 export default function RootLayout({

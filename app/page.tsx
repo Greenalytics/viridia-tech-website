@@ -570,14 +570,14 @@ export default function ViridiaTechProfile() {
                 role: "CDO & Co-Founder",
                 education: "BSc Computer Engineering, American University in Cairo",
                 experience: "5 years in Data Science at IBM, Dell Technologies, Central Bank of Egypt, PwC",
-                image: "/images/mohamed-cdo.jpeg",
+                image: "/images/mohamed-cdo.png",
               },
               {
                 name: "Marwan El Toukhy",
                 role: "CTO & Co-Founder",
                 education: "BSc Computer Engineering, AUC & Virginia Tech",
                 experience: "5 years in Silicon Valley hardware design and international sales at Efabless",
-                image: "/images/marwan-cto.jpeg",
+                image: "/images/marwan-cto.png",
               },
             ].map((member, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
