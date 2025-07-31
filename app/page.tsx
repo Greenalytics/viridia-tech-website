@@ -393,14 +393,14 @@ export default function ViridiaTechProfile() {
             </CardHeader>
             <CardContent className="p-0">
               <Tabs defaultValue="features" className="w-full">
-                <TabsList className="grid w-full grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-0">
-                  <TabsTrigger value="features" className="text-xs sm:text-sm">Features & Benefits</TabsTrigger>
-                  <TabsTrigger value="pricing" className="text-xs sm:text-sm">Pricing Tiers</TabsTrigger>
-                  <TabsTrigger value="results" className="text-xs sm:text-sm">Proven Results</TabsTrigger>
+                <TabsList className="grid w-full grid-cols-3">
+                  <TabsTrigger value="features">Features & Benefits</TabsTrigger>
+                  <TabsTrigger value="pricing">Pricing Tiers</TabsTrigger>
+                  <TabsTrigger value="results">Proven Results</TabsTrigger>
                 </TabsList>
 
-                <TabsContent value="features" className="p-4 sm:p-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                <TabsContent value="features" className="p-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {[
                       { title: "Irrigation Forecasting", desc: "10-15% water/energy savings", icon: Droplets },
                       { title: "Input Optimization", desc: "Up to $120 savings per acre", icon: Sprout },
@@ -424,8 +424,8 @@ export default function ViridiaTechProfile() {
                   </div>
                 </TabsContent>
 
-                <TabsContent value="pricing" className="p-4 sm:p-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                <TabsContent value="pricing" className="p-6">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {[
                       {
                         name: "Basic",
@@ -469,15 +469,15 @@ export default function ViridiaTechProfile() {
                   </div>
                 </TabsContent>
 
-                <TabsContent value="results" className="p-4 sm:p-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+                <TabsContent value="results" className="p-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <Card className="p-6 border-green-200">
                       <div className="flex items-center space-x-4 mb-4">
-                        <div className="w-16 h-12 flex items-center justify-center">
+                        <div className="w-24 h-16 flex items-center justify-center">
                           <img 
                             src="/pepsico-logo.png" 
                             alt="PepsiCo Logo" 
-                            className="h-8 w-auto object-contain"
+                            className="h-12 w-auto object-contain"
                           />
                         </div>
                         <div>
@@ -493,11 +493,11 @@ export default function ViridiaTechProfile() {
 
                     <Card className="p-6 border-green-200">
                       <div className="flex items-center space-x-4 mb-4">
-                        <div className="w-16 h-12 flex items-center justify-center">
+                        <div className="w-24 h-16 flex items-center justify-center">
                           <img 
                             src="/ebg-logo.jpeg" 
                             alt="EBG Logo" 
-                            className="h-8 w-auto object-contain"
+                            className="h-12 w-auto object-contain"
                           />
                         </div>
                         <div>
